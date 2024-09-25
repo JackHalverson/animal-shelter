@@ -17,7 +17,24 @@
 
     <main>
       <h2>Shelters</h2>
-      <section id="shelters">
+      <section id="shelters"></section>
+
+      <!-- Form for adding a new shelter -->
+      <section class="form-section">
+        <h3>Add New Shelter</h3>
+        <form id="shelterForm">
+          <input type="text" id="name" placeholder="Shelter Name" required>
+          <input type="text" id="address" placeholder="Address" required>
+          <input type="number" id="cats" placeholder="Number of Cats" required>
+          <input type="number" id="dogs" placeholder="Number of Dogs" required>
+          <button type="submit">Add Shelter</button>
+        </form>
+      </section>
+
+      <!-- Buttons for CRUD operations -->
+      <section class="crud-buttons">
+        <button id="updateShelterBtn">Update Shelter</button>
+        <button id="deleteShelterBtn">Delete Shelter</button>
       </section>
     </main>
 

@@ -19,8 +19,38 @@ body {
 
 .shelter-card {
   background-color: #3f3f3f;
-  align-self: flex-end;
   border-radius: 10px;
   padding: 1em;
   margin-bottom: 1em;
+}
+
+.form-section {
+  margin-top: 20px;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4babc8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #124c5c;
+}
+
+input {
+  width: 100%;
+  max-width: 300px;
+}
+
+.crud-buttons {
+  margin-top: 20px;
 }
